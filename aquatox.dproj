@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{ab34114a-8162-4013-957d-8df184625ff5}</ProjectGuid>
+    <MainSource>aquatox.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>aquatox.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Alignment>1</DCC_Alignment>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_GenerateStackFrames>True</DCC_GenerateStackFrames>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_StackSize>16384,16777216</DCC_StackSize>
+    <DCC_Define>RELEASE</DCC_Define>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Alignment>1</DCC_Alignment>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_GenerateStackFrames>True</DCC_GenerateStackFrames>
+    <DCC_StackSize>16384,16777216</DCC_StackSize>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+    <DCC_UnitSearchPath>C:\Programming\Denomo\;$(BDS)\RaveReports\Lib\;C:\Programming\FastMM4\</DCC_UnitSearchPath>
+    <DCC_ResourcePath>C:\Programming\Denomo\;$(BDS)\RaveReports\Lib\;C:\Programming\FastMM4\</DCC_ResourcePath>
+    <DCC_ObjPath>C:\Programming\Denomo\;$(BDS)\RaveReports\Lib\;C:\Programming\FastMM4\</DCC_ObjPath>
+    <DCC_IncludePath>C:\Programming\Denomo\;$(BDS)\RaveReports\Lib\;C:\Programming\FastMM4\</DCC_IncludePath>
+    <DCC_MapFile>3</DCC_MapFile>
+    <DCC_AssertionsAtRuntime>False</DCC_AssertionsAtRuntime>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">3</VersionInfo><VersionInfo Name="MinorVer">1</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">50</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">Eco Modeling / Warren Pinnacle Consulting, Inc.</VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">3.1.0.50</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName">AQUATOX 3.1</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">3.1.0.50</VersionInfoKeys><VersionInfoKeys Name="Comments">hi mom</VersionInfoKeys></VersionInfoKeys><Excluded_Packages>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <Excluded_Packages Name="$(BDS)\bin\dcloffice2k100.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+      <Excluded_Packages Name="$(BDS)\bin\dclofficexp100.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+    </Excluded_Packages><Source><Source Name="MainSource">aquatox.dpr</Source></Source></Delphi.Personality><ModelSupport>False</ModelSupport></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="aquatox.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="Anadromous.pas">
+      <Form>AnadromousForm</Form>
+    </DCCReference>
+    <DCCReference Include="ANIMAL.PAS">
+      <Form>Edit_Animal</Form>
+    </DCCReference>
+    <DCCReference Include="AQSITE.PAS" />
+    <DCCReference Include="aqstudy.pas" />
+    <DCCReference Include="AQTOpenDialog.pas" />
+    <DCCReference Include="aquaobj.pas" />
+    <DCCReference Include="aquatox_TLB.pas" />
+    <DCCReference Include="ATCData_TLB.pas" />
+    <DCCReference Include="basins.pas">
+      <Form>LBasinsInfo</Form>
+    </DCCReference>
+    <DCCReference Include="Basins_BOD.PAS">
+      <Form>BODForm</Form>
+    </DCCReference>
+    <DCCReference Include="batch.pas">
+      <Form>BatchDlg</Form>
+    </DCCReference>
+    <DCCReference Include="BufferTStream.pas" />
+    <DCCReference Include="ChangVar.Pas">
+      <Form>ChangeVarForm</Form>
+    </DCCReference>
+    <DCCReference Include="chem.pas">
+      <Form>Edit_Chemical</Form>
+    </DCCReference>
+    <DCCReference Include="chemtox.pas">
+      <Form>ChemToxForm</Form>
+    </DCCReference>
+    <DCCReference Include="clearresults.pas">
+      <Form>ClearResForm</Form>
+    </DCCReference>
+    <DCCReference Include="Control.pas">
+      <Form>ControlForm</Form>
+    </DCCReference>
+    <DCCReference Include="Convert.pas">
+      <Form>ConvertForm</Form>
+    </DCCReference>
+    <DCCReference Include="Corr_Edit.pas">
+      <Form>EditCorrForm</Form>
+    </DCCReference>
+    <DCCReference Include="DBENTRY.PAS">
+      <Form>Db_GetEntry</Form>
+    </DCCReference>
+    <DCCReference Include="DBGrids2.pas" />
+    <DCCReference Include="Debug.pas">
+      <Form>DebugScreen</Form>
+    </DCCReference>
+    <DCCReference Include="DefaultGraphs.pas">
+      <Form>DefaultGraphForm</Form>
+    </DCCReference>
+    <DCCReference Include="Detrscreen.pas">
+      <Form>EditDetritus</Form>
+    </DCCReference>
+    <DCCReference Include="Diagenesis.pas">
+      <Form>DiagenesisForm</Form>
+    </DCCReference>
+    <DCCReference Include="Diagenesis_Calcs.pas" />
+    <DCCReference Include="ec50lc50.pas">
+      <Form>ec50lc50dialog</Form>
+    </DCCReference>
+    <DCCReference Include="edstatev.pas">
+      <Form>conv</Form>
+    </DCCReference>
+    <DCCReference Include="Estuary_Loads.pas">
+      <Form>EstuaryLoadForm</Form>
+    </DCCReference>
+    <DCCReference Include="ExcelFuncs.pas" />
+    <DCCReference Include="ExportResults.pas" />
+    <DCCReference Include="getfishage.pas">
+      <Form>GetFishForm</Form>
+    </DCCReference>
+    <DCCReference Include="global.pas" />
+    <DCCReference Include="GraphArrange.pas">
+      <Form>GraphArrangeForm</Form>
+    </DCCReference>
+    <DCCReference Include="graphchc.pas">
+      <Form>GraphChoiceDlg</Form>
+    </DCCReference>
+    <DCCReference Include="graphchoice2.pas">
+      <Form>GraphChoice2</Form>
+    </DCCReference>
+    <DCCReference Include="GraphSetup.pas">
+      <Form>GraphSetupScreen</Form>
+    </DCCReference>
+    <DCCReference Include="Grid2Excel.pas" />
+    <DCCReference Include="imp_load.pas">
+      <Form>ImportForm</Form>
+    </DCCReference>
+    <DCCReference Include="initcond.pas">
+      <Form>InitCondForm</Form>
+    </DCCReference>
+    <DCCReference Include="INSRTDLG.PAS">
+      <Form>InsertStateDialog</Form>
+    </DCCReference>
+    <DCCReference Include="librarys.pas">
+      <Form>Library_File</Form>
+    </DCCReference>
+    <DCCReference Include="Librarys2.pas">
+      <Form>Library_File1</Form>
+    </DCCReference>
+    <DCCReference Include="LibraryType.pas">
+      <Form>LibTypeForm</Form>
+    </DCCReference>
+    <DCCReference Include="LinkedExcelTemplate.pas">
+      <Form>LinkedExcelForm</Form>
+    </DCCReference>
+    <DCCReference Include="LinkedInterface.pas">
+      <Form>LinkedForm</Form>
+    </DCCReference>
+    <DCCReference Include="LinkEdit.Pas">
+      <Form>LinkForm</Form>
+    </DCCReference>
+    <DCCReference Include="LinkedSegs.Pas" />
+    <DCCReference Include="LinkedThread.pas" />
+    <DCCReference Include="linkstrat.pas">
+      <Form>StratDialog</Form>
+    </DCCReference>
+    <DCCReference Include="LOADINGS.PAS" />
+    <DCCReference Include="MAIN.PAS">
+      <Form>PrimaryInterface</Form>
+    </DCCReference>
+    <DCCReference Include="matrixmath.pas" />
+    <DCCReference Include="MigrEdit.pas">
+      <Form>DistributionForm</Form>
+    </DCCReference>
+    <DCCReference Include="morphedit.pas">
+      <Form>MorphDlg</Form>
+    </DCCReference>
+    <DCCReference Include="multifish.pas">
+      <Form>MultFishForm</Form>
+    </DCCReference>
+    <DCCReference Include="NEWSTUDY.PAS">
+      <Form>NewStudyDialog</Form>
+    </DCCReference>
+    <DCCReference Include="NOTESDLG.PAS">
+      <Form>NotesDialog</Form>
+    </DCCReference>
+    <DCCReference Include="Observed_Data.pas">
+      <Form>Edit_Data_Form</Form>
+    </DCCReference>
+    <DCCReference Include="output.pas">
+      <Form>OutputScreen</Form>
+    </DCCReference>
+    <DCCReference Include="Parent.pas">
+      <Form>ParentForm</Form>
+    </DCCReference>
+    <DCCReference Include="PFAK2s.pas">
+      <Form>PFAK2Form</Form>
+    </DCCReference>
+    <DCCReference Include="Plant.pas">
+      <Form>Edit_Plant</Form>
+    </DCCReference>
+    <DCCReference Include="PRINTING.PAS">
+      <Form>PrintCoverForm</Form>
+    </DCCReference>
+    <DCCReference Include="PROGRESS.PAS">
+      <Form>ProgressDialog</Form>
+    </DCCReference>
+    <DCCReference Include="RateScrn.pas">
+      <Form>RSetupForm</Form>
+    </DCCReference>
+    <DCCReference Include="regress.pas">
+      <Form>regrdialog</Form>
+    </DCCReference>
+    <DCCReference Include="remin.pas">
+      <Form>Remineralization</Form>
+    </DCCReference>
+    <DCCReference Include="results.pas">
+      <Form>ResultsForm</Form>
+    </DCCReference>
+    <DCCReference Include="SedLayers.pas">
+      <Form>EditSedForm</Form>
+    </DCCReference>
+    <DCCReference Include="setup.pas">
+      <Form>StudySetupDialog</Form>
+    </DCCReference>
+    <DCCReference Include="SITE.PAS">
+      <Form>Edit_Site</Form>
+    </DCCReference>
+    <DCCReference Include="SITESCRE.PAS">
+      <Form>SiteDialog</Form>
+    </DCCReference>
+    <DCCReference Include="SPLASH.PAS">
+      <Form>SplashForm</Form>
+    </DCCReference>
+    <DCCReference Include="Stat_Calc.pas">
+      <Form>Statistic_Form</Form>
+    </DCCReference>
+    <DCCReference Include="StratFlow.pas">
+      <Form>StratFlowForm</Form>
+    </DCCReference>
+    <DCCReference Include="STUDY_IO.PAS">
+      <Form>Study_IO_Dlg</Form>
+    </DCCReference>
+    <DCCReference Include="sv_io.pas">
+      <Form>SV_IO_Form</Form>
+    </DCCReference>
+    <DCCReference Include="TCollect.pas" />
+    <DCCReference Include="Thread.pas" />
+    <DCCReference Include="trophint.pas">
+      <Form>TrophIntForm</Form>
+    </DCCReference>
+    <DCCReference Include="trophmatrix.pas">
+      <Form>EditTrophIntForm</Form>
+    </DCCReference>
+    <DCCReference Include="TSI_Calc.pas">
+      <Form>TSI_Form</Form>
+    </DCCReference>
+    <DCCReference Include="uncert.pas">
+      <Form>DistributionForm</Form>
+    </DCCReference>
+    <DCCReference Include="u_setup.pas">
+      <Form>USetupForm</Form>
+    </DCCReference>
+    <DCCReference Include="wait.pas">
+      <Form>WaitDlg</Form>
+    </DCCReference>
+    <DCCReference Include="WinHelpViewer.pas" />
+    <DCCReference Include="WinHelpViewer2.pas" />
+    <DCCReference Include="wizardbase.pas">
+      <Form>WizBase</Form>
+    </DCCReference>
+    <DCCReference Include="WizardProg.pas">
+      <Form>WizardProgress</Form>
+    </DCCReference>
+    <DCCReference Include="WizardSumm.pas">
+      <Form>WizSummary</Form>
+    </DCCReference>
+    <DCCReference Include="wizglobal.pas" />
+    <DCCReference Include="wiz_0.pas" />
+    <DCCReference Include="wiz_1.pas" />
+    <DCCReference Include="Wiz_10.pas" />
+    <DCCReference Include="Wiz_11.pas" />
+    <DCCReference Include="Wiz_12.pas" />
+    <DCCReference Include="Wiz_13.pas" />
+    <DCCReference Include="Wiz_14.pas" />
+    <DCCReference Include="Wiz_15.pas" />
+    <DCCReference Include="wiz_16.pas" />
+    <DCCReference Include="wiz_17.pas" />
+    <DCCReference Include="wiz_18.pas" />
+    <DCCReference Include="wiz_19.pas" />
+    <DCCReference Include="Wiz_2.pas" />
+    <DCCReference Include="wiz_20.pas" />
+    <DCCReference Include="wiz_3.pas" />
+    <DCCReference Include="wiz_4.pas" />
+    <DCCReference Include="wiz_5.pas" />
+    <DCCReference Include="Wiz_6.pas" />
+    <DCCReference Include="wiz_7.pas" />
+    <DCCReference Include="Wiz_8.pas" />
+    <DCCReference Include="Wiz_9.pas" />
+    <DCCReference Include="wiz_dbentry.pas" />
+    <DCCReference Include="Wiz_Fish1.pas" />
+    <DCCReference Include="wiz_fish2.pas" />
+    <DCCReference Include="wiz_unfinished.pas" />
+    <None Include="animal.inc" />
+    <None Include="AQSTUDY.inc" />
+    <None Include="Chemical.inc" />
+    <None Include="estuary.inc" />
+    <None Include="Fourier.inc" />
+    <None Include="linkedsegs.inc" />
+    <None Include="loading.inc" />
+    <None Include="Numerical.inc" />
+    <None Include="plant.inc" />
+    <None Include="reminerl.inc" />
+    <None Include="salinity.inc" />
+    <None Include="Sediment.inc" />
+    <None Include="segment.inc" />
+    <None Include="site.inc" />
+    <None Include="State.inc" />
+    <None Include="StorLoad.inc" />
+    <None Include="toxprocs.inc" />
+    <None Include="translate.inc" />
+  </ItemGroup>
+</Project>
